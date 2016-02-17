@@ -5,7 +5,7 @@ import os
 
 
 LocalName = ('EN','ZH-CN','ZH-TW','JA','KO','FR','DE')
-choose = int(raw_input("please select the localse:"))
+choose = int(raw_input("please select the locales:"))
 
 if choose < 8:
 	tempLocaleName = LocalName[choose-1]
